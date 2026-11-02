@@ -2,39 +2,53 @@
 <html lang="en"> 
 <head> 
 <meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio of Dagmawit Biniyam, Software Engineering
+student and aspiring web developer in Addis Ababa.">
+<meta name="keywords" content="Dagmawit Biniyam, portfolio, software engineering, web
+developer, HTML">
+<meta name="author" content="Dagmawit Biniyam">
 <title>Dagmawit Biniyam | Portfolio</title> 
 <link rel="icon" type="image/png" href="images/favicon.png">
 </head> 
 <body> 
-    <h1>Dagmawit Biniyam</h1> 
+    <header>
+        <h1>Dagmawit Biniyam</h1> 
     <img src="images/profile.jpg" alt="Portrait of me smiling" 
      title="Dagmawit Biniyam" width="200" height="200">
     <p>Software Engineering student and aspiring web developer.</p> 
-<p> 
+<nav> 
     <a href="#about">About</a> | 
     <a href="#skills">Skills</a> | 
     <a href="#projects">Projects</a> | 
     <a href="#education">Education</a> | 
     <a href="#contact">Contact</a> | 
     <a href="projects.html">All Projects</a> 
-</p> 
+</nav>
+    </header>
     <hr> 
-    <h2 id="about">About Me</h2> 
+    <main>
+      <section id="about">  
+    <h2 >About Me</h2> 
     <p>I am a 3<sup>rd</sup> year <strong>Software Engineering</strong> student. 
 I <em>really</em> enjoy building websites, and my current goal is to 
    <mark>becomeing a full-stack web developer</mark>.</p> 
    <p>Languages I have used: <b>Java</b>, <b>C++</b> and <i>a little</i> 
     JavaScript.</p> 
     <p>Fun fact: I drink 2 litres of H<sub>2</sub>O while coding every day.And I have a love and hate relation with coding.</p>   
+    </section>
     <hr> 
+    <aside>
     <h2>What Inspires Me</h2> 
 <blockquote> 
 “Waking up every day.” — me,myself 
 </blockquote> 
 <p>My teacher always says <q>practice beats theory</q>, so I code every day.</p> 
 <p>Book I am reading: <cite>Think Like a Monk</cite> by Jay Shatty</p>
+</aside>
 <hr> 
-    <h2 id="skills">Skills</h2> 
+<section id="skills">
+        <h2 >Skills</h2> 
 <ul> 
     <li>Programming Languages 
         <ul type="square"> 
@@ -74,27 +88,40 @@ I <em>really</em> enjoy building websites, and my current goal is to
     <dt>Git and GitHub</dt> 
     <dd>Saves versions of my code and shares my projects online.</dd> 
 </dl> 
-    <hr> 
-    <h2 id="projects">Projects</h2> 
+</section>
+<hr>
+<section id="projects">
+    <h2>Projects</h2>
+<article> 
     <h3>Blood bank Managment System</h3> 
     <img src="images/project-blood.PNG" alt="Screenshot of the system accepting blood donor's informaation" 
 width="400" height="250"> 
     <p>A system that accept, store and update donors information for the purpose of centeralizing the blood bank anagment system.</p> 
-    <h3>Rental managment system</h3> 
+</article>
+<article>
+        <h3>Rental managment system</h3> 
     <p>A c++ program with a data base that makes rental system reliable, easy and user-friendly.</p> 
     <img src="images/project-rental.PNG" alt="Screenshot of the system while adding property description." 
 width="400" height="250"> 
+</article>
+<article>
     <h3>Railway managment system</h3>
     <p>It is a system analysis documentation that studies all requirent for building the syste And as a front end student in the near future with my team mates, we will implement it .</p>
     <p><a href="projects.html">See all my projects →</a></p> 
+</article>
+<article>
     <h3>My First Program</h3> 
 <p>The first thing I wrote in c++ was <code>cout&lt;&lt;"Hello, World!";</code>. 
 Later I wrote this loop:</p> 
 <pre><code>for(int i=0;i&lt;n;i++) 
 </code></pre> 
-<p>The first thing I wrote in python was(y sceond language) print:("helloworld")
+<p>The first thing I wrote in python was(y sceond language) print:("helloworld")</p>
+</article>
+</section>
 <hr> 
-<h2 id="education">Education</h2> 
+
+<section id="education">
+    <h2 >Education</h2> 
 <h3>BSc in Software Engineering</h3> 
 <p>Addis Ababa Science and Technology University, 2023 – present</p> 
 <table border="1" cellpadding="5" cellspacing="2"> 
@@ -159,8 +186,10 @@ Later I wrote this loop:</p>
         </tr> 
 </tfoot> 
 </table> 
+</section>
 <hr> 
-<h2 id="contact">Contact</h2> 
+<section id="contact">
+<h2 >Contact</h2> 
 <p>Address:Ashewa Meda<br>Addis Ababa,<br>Ethiopia</p>
 <p>Email: <a href="mailto:dagibini913@example.com">dagibini913@example.com</a></p> 
 <p>Phone: <a href="tel:+251968731350">+251 968731350</a></p> 
@@ -168,7 +197,6 @@ Later I wrote this loop:</p>
 <p>LinkedIn: <a 
 href="https://www.linkedin.com/in/dagmawitbiniyam">linkedin.com/in/dagmawitbiniyam</a></p> 
 <p><a href="files/cv.pdf" download>Download my CV (PDF)</a></p>
-
 <img src="images/connect-banner.png" usemap="#connectmap" 
 alt="Connect banner: GitHub, LinkedIn, Email" width="600" height="200"> 
 <map name="connectmap"> 
@@ -179,5 +207,11 @@ href="https://www.linkedin.com/in/dagmawitbiniyam" alt="LinkedIn">
 <area shape="rect"   coords="420,40,580,160" 
 href="mailto:dagibini913@gmail.com" alt="Email"> 
 </map>  
+</section>
+</main>
+<footer>
+    <p>copyright 2020 &copy;Dagmawit Biniyam. &copy;All rights reserved.</p>
+    </footer>
+
 </body> 
 </html> 
