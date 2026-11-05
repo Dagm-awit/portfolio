@@ -13,6 +13,16 @@ developer, HTML">
 </head> 
 <body> 
     <header>
+       <button type="button"
+onclick="document.getElementById('hireDialog').showModal()">Hire me</button>
+<dialog id="hireDialog">
+<h2>Available for internships</h2>
+<p>I am available for internships and freelance web projects from June 2027.</p>
+<p><a href="#contact">Send me a message</a> or <a href="files/cv.pdf"
+download>download my CV</a>.</p>
+<button type="button"
+onclick="document.getElementById('hireDialog').close()">Close</button>
+</dialog> 
         <h1>Dagmawit Biniyam</h1> 
     <img src="images/profile.jpg" alt="Portrait of me smiling" 
      title="Dagmawit Biniyam" width="200" height="200">
@@ -81,6 +91,25 @@ Learning Software Engineering During the Era of AI"></iframe>
         </ul> 
     </li> 
 </ul> 
+<h3>Skill Levels</h3>
+<p>
+<label for="lvl-html">HTML</label>
+<meter id="lvl-html" value="0.9" min="0" max="1">90%</meter>
+</p>
+<p>
+<label for="lvl-c++">C++</label>
+<meter id="lvl-c++" value="0.7" min="0" max="1">70%</meter>
+</p>
+<p>
+<label for="lvl-js">JavaScript</label>
+<meter id="lvl-js" value="0.5" min="0" max="1" low="0.3" high="0.7"
+optimum="1">50%</meter>
+</p>
+<p>
+    <label for="lvl-java">Java</label>
+    <meter value="0.1" min="0" max="1" low="0.3" high="0.7"
+optimum="1">10%</meter>
+</p>
 <h3>My Learning Roadmap</h3> 
 <ol type="1"> 
     <li>HTML structure and content</li> 
@@ -134,6 +163,10 @@ Later I wrote this loop:</p>
     <h2 >Education</h2> 
 <h3>BSc in Software Engineering</h3> 
 <p>Addis Ababa Science and Technology University, 2023 – present</p> 
+<p>
+    <label for="degree">Degree Progress</label>
+    <progress id="degree" value="40" max="100">40%</progress>  40%
+</p>
 <table border="1" cellpadding="5" cellspacing="2"> 
     <caption>Academic Record — BSc in Software Engineering</caption> 
     <thead> 
