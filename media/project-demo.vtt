@@ -1,22 +1,43 @@
 WEBVTT
-00:11.000 --> 00:13.000
-<sub> Roger Bingham:
-We are in New York City
-00:13.000 --> 00:16.000
-<sub> Roger Bingham:
-We're actually at the Lucern Hotel
-00:16.000 --> 00:18.000
-<sub> Roger Bingham:
-from the American Museum of Natural History
-00:18.000 --> 00:20.000
-<sub> Roger Bingham:
-And with me is Neil deGrasse Tyson
-00:20.000 --> 00:22.000
-<sub> Roger Bingham:
-Astrophysicist, Director of the Hayden Planetarium
-00:22.000 --> 00:24.000
-<sub> Roger Bingham:
-at the AMNH. Thank you for walking down here
-00:24.000 --> 00:26.000
-<sub> Roger Bingham:
-And I want...`
+
+00:00:00.000 --> 00:00:04.000
+Welcome to the Donor Management System.
+
+00:00:04.000 --> 00:00:08.000
+The main menu offers donor registration, blood donation, and blood requests.
+
+00:00:08.000 --> 00:00:12.000
+First, choose "Register Donor" to create a donor profile.
+
+00:00:12.000 --> 00:00:17.000
+Enter the donor's first name and last name.
+
+00:00:17.000 --> 00:00:22.000
+Next, provide the donor's age and blood group.
+
+00:00:22.000 --> 00:00:27.000
+Enter a phone number to complete the registration details.
+
+00:00:27.000 --> 00:00:34.000
+The donor information is submitted and the registration process is completed.
+
+00:00:34.000 --> 00:00:40.000
+The system returns to the main menu. Select "Donate blood" to record a donation.
+
+00:00:40.000 --> 00:00:47.000
+Enter the donor ID to identify the registered donor.
+
+00:00:47.000 --> 00:00:53.000
+Provide the donation date in the requested date format.
+
+00:00:53.000 --> 00:01:02.000
+The system confirms that the blood donation has been recorded successfully.
+
+00:01:02.000 --> 00:01:08.000
+Return to the menu and choose "Request blood" to search for a compatible donor.
+
+00:01:08.000 --> 00:01:15.000
+Enter the required blood group.
+
+00:01:15.000 --> 00:01:21.200
+The system checks the donor records and displays a compatible donor, if available.
