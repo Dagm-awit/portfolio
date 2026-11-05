@@ -1,13 +1,22 @@
 WEBVTT
-
-00:00:00.000 --> 00:00:03.000
-This is my Simple Calculator, written in Python.
-
-00:00:03.000 --> 00:00:06.000
-I enter the first number, 12, and the operator +.
-
-00:00:06.000 --> 00:00:09.000
-Then I enter the second number, 30.
-
-00:00:09.000 --> 00:00:12.000
-The program prints the result: 42.
+00:11.000 --> 00:13.000
+<sub> Roger Bingham:
+We are in New York City
+00:13.000 --> 00:16.000
+<sub> Roger Bingham:
+We're actually at the Lucern Hotel
+00:16.000 --> 00:18.000
+<sub> Roger Bingham:
+from the American Museum of Natural History
+00:18.000 --> 00:20.000
+<sub> Roger Bingham:
+And with me is Neil deGrasse Tyson
+00:20.000 --> 00:22.000
+<sub> Roger Bingham:
+Astrophysicist, Director of the Hayden Planetarium
+00:22.000 --> 00:24.000
+<sub> Roger Bingham:
+at the AMNH. Thank you for walking down here
+00:24.000 --> 00:26.000
+<sub> Roger Bingham:
+And I want...`
